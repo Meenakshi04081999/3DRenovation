@@ -1,0 +1,307 @@
+{
+  "version": 2,
+  "based_on": "room_spec.json",
+  "approved_brief": "Modern and warm kitchen refresh. Keep unchanged: the U-shaped layout and all cabinet positions and sizes, the peninsula and its raised ledge, the black sink and tap, the black gas hob, the window, the large light-grey floor tiles, the ceiling, beam and ceiling fans. Fronts: base units in handle-less matte warm greige (cashmere) with slim recessed grips; wall cabinets and the tall unit in light natural oak veneer; the black glass top row replaced with matching oak fronts; the missing doors under the sink added in the same greige. Worktop: warm white quartz with subtle soft veining, about 2 cm thick, also on the peninsula ledge. Walls: smooth matte warm off-white paint; the glossy splashback between worktop and wall cabinets replaced with warm white handmade-look rectangular tiles. Lighting: warm-white (2700 K) LED strip under the wall cabinets, two simple brass-and-opal-glass pendants over the peninsula, existing ceiling spots in warm white. No extra furniture or appliances; keep the worktop clear apart from a few small items.",
+  "staging": {
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "brief": "see approved_brief",
+    "pairs": {
+      "Küche.jpeg": "Küche_staged.png",
+      "Küche_middle.jpeg": "Küche_middle_staged.png",
+      "Küche_rightview.jpeg": "Küche_rightview_staged.png"
+    },
+    "check": "Consistent in all three: layout, sink, hob, window, floor, beam, fans and spots kept; matte greige handle-less base fronts; one continuous row of light oak wall cabinets replacing the white and black glass rows; warm white quartz worktop incl. peninsula ledge; warm off-white walls; LED strip under the wall cabinets; two brass/opal globe pendants over the peninsula. Ignored: Küche_rightview adds a second hob on the sink run (does not exist; the hob is on the peninsula) and leaves the gap under the sink without doors; Küche turns the tall unit into a white open niche (the other two agree on an oak upper cabinet with greige open shelves) and restyles a living-area cabinet (out of scope). Splashback tile pattern differs in every image (vertical stack, square, rectangular); the model uses the brief's rectangular handmade-look tile. All three drop the open niche under the wall cabinets. User decisions: rectangular handmade-look tiles; keep the open niche under the wall cabinets (as in the original, unlike the staged images); keep the two pendants."
+  },
+  "surfaces": {
+    "floor": {
+      "before": "large light-grey tiles",
+      "after": "unchanged",
+      "material": "tiles",
+      "trade": "-"
+    },
+    "walls": {
+      "before": "cream paint, window wall white",
+      "after": "smooth matte warm off-white paint",
+      "material": "smooth_paint_warmwhite",
+      "trade": "Painter"
+    },
+    "ceiling": {
+      "before": "white",
+      "after": "unchanged",
+      "material": "smooth_paint_white",
+      "trade": "-"
+    }
+  },
+  "unchanged": [
+    "sink",
+    "hob",
+    "window",
+    "floor tiles",
+    "ceiling, beam, fans",
+    "layout and cabinet sizes"
+  ],
+  "items": [
+    {
+      "id": "base_sink_run",
+      "replaces": "counter_sink_run",
+      "type": "shelf",
+      "x": 2.4,
+      "z": 0.0,
+      "w": 0.6,
+      "d": 2.8,
+      "h": 0.88,
+      "material": "matte_greige"
+    },
+    {
+      "id": "base_window_run",
+      "replaces": "counter_window_run",
+      "type": "shelf",
+      "x": 1.25,
+      "z": 0.0,
+      "w": 1.15,
+      "d": 0.6,
+      "h": 0.88,
+      "material": "matte_greige"
+    },
+    {
+      "id": "base_peninsula",
+      "replaces": "peninsula",
+      "type": "shelf",
+      "x": 0.4,
+      "z": 2.8,
+      "w": 2.6,
+      "d": 0.6,
+      "h": 0.88,
+      "material": "matte_greige"
+    },
+    {
+      "id": "ledge_quartz",
+      "replaces": "peninsula_ledge",
+      "type": "shelf",
+      "x": 0.4,
+      "z": 3.4,
+      "w": 2.6,
+      "d": 0.2,
+      "h": 1.1,
+      "material": "quartz_warmwhite"
+    },
+    {
+      "id": "tall_unit_open",
+      "replaces": "tall_unit",
+      "type": "shelf",
+      "x": 0.65,
+      "z": 0.0,
+      "w": 0.6,
+      "d": 0.6,
+      "h": 1.2,
+      "material": "matte_greige"
+    },
+    {
+      "id": "wall_cabinets_oak_lower",
+      "replaces": "wall_cabinets_white",
+      "type": "wall_cabinet",
+      "z": 0.6,
+      "w": 0.35,
+      "d": 2.8,
+      "y": 1.55,
+      "h": 0.55
+    },
+    {
+      "id": "wall_cabinets_oak_upper",
+      "replaces": "wall_cabinets_glass",
+      "type": "wall_cabinet",
+      "z": 0.6,
+      "w": 0.35,
+      "d": 2.8,
+      "y": 2.1,
+      "h": 0.4
+    }
+  ],
+  "kitchen_extras": {
+    "note": "Built by kitchen_fixups.py: the builder has no worktop, splashback, LED strip or pendant types.",
+    "custom_materials": {
+      "matte_greige": {
+        "rgb": [
+          205,
+          196,
+          184
+        ],
+        "rough": 0.55
+      },
+      "quartz_warmwhite": {
+        "rgb": [
+          241,
+          237,
+          229
+        ],
+        "rough": 0.25
+      },
+      "splash_tiles": {
+        "rgb": [
+          239,
+          232,
+          219
+        ],
+        "rough": 0.2
+      },
+      "brass": {
+        "rgb": [
+          196,
+          160,
+          98
+        ],
+        "rough": 0.3,
+        "metal": 1.0
+      }
+    },
+    "boxes": [
+      {
+        "id": "worktop_sink_run",
+        "x0": 2.38,
+        "y0": 0.88,
+        "z0": 0.0,
+        "x1": 3.0,
+        "y1": 0.9,
+        "z1": 2.8,
+        "material": "quartz_warmwhite"
+      },
+      {
+        "id": "worktop_window_run",
+        "x0": 1.25,
+        "y0": 0.88,
+        "z0": 0.0,
+        "x1": 2.4,
+        "y1": 0.9,
+        "z1": 0.62,
+        "material": "quartz_warmwhite"
+      },
+      {
+        "id": "worktop_peninsula",
+        "x0": 0.38,
+        "y0": 0.88,
+        "z0": 2.8,
+        "x1": 3.0,
+        "y1": 0.9,
+        "z1": 3.4,
+        "material": "quartz_warmwhite"
+      },
+      {
+        "id": "tall_unit_oak_top",
+        "x0": 0.65,
+        "y0": 1.2,
+        "z0": 0.0,
+        "x1": 1.25,
+        "y1": 2.25,
+        "z1": 0.6,
+        "material": "oak"
+      },
+      {
+        "id": "splashback_tiles",
+        "x0": 2.988,
+        "y0": 0.9,
+        "z0": 0.0,
+        "x1": 3.0,
+        "y1": 1.35,
+        "z1": 3.4,
+        "material": "splash_tiles"
+      },
+      {
+        "id": "niche_board_oak",
+        "x0": 2.65,
+        "y0": 1.34,
+        "z0": 0.6,
+        "x1": 3.0,
+        "y1": 1.37,
+        "z1": 3.4,
+        "material": "oak"
+      },
+      {
+        "id": "led_strip",
+        "x0": 2.66,
+        "y0": 1.33,
+        "z0": 0.62,
+        "x1": 2.69,
+        "y1": 1.34,
+        "z1": 3.38,
+        "material": "lamp_shade"
+      }
+    ],
+    "pendants": [
+      {
+        "id": "pendant_1",
+        "x": 1.2,
+        "z": 3.1,
+        "globe_y": 1.75
+      },
+      {
+        "id": "pendant_2",
+        "x": 2.1,
+        "z": 3.1,
+        "globe_y": 1.75
+      }
+    ]
+  },
+  "change_list": [
+    {
+      "element": "Base unit fronts",
+      "before": "white high-gloss",
+      "after": "matte warm greige (cashmere), handle-less with recessed grips",
+      "trade": "Kitchen fitter"
+    },
+    {
+      "element": "Doors under the sink",
+      "before": "missing",
+      "after": "matte greige doors to match",
+      "trade": "Kitchen fitter"
+    },
+    {
+      "element": "Wall cabinets",
+      "before": "white gloss row plus black glass top row",
+      "after": "one continuous row of light oak veneer, open niche below kept (oak shelf board)",
+      "trade": "Kitchen fitter"
+    },
+    {
+      "element": "Tall unit",
+      "before": "white gloss cabinet, open shelves below",
+      "after": "oak upper cabinet, greige open shelves with baskets",
+      "trade": "Kitchen fitter"
+    },
+    {
+      "element": "Worktop and ledge",
+      "before": "cream stone",
+      "after": "warm white quartz with soft veining, 2 cm",
+      "trade": "Worktop fabricator"
+    },
+    {
+      "element": "Splashback",
+      "before": "glossy panel",
+      "after": "warm white handmade-look rectangular tiles, worktop up to the niche",
+      "trade": "Tiler"
+    },
+    {
+      "element": "Walls",
+      "before": "cream paint, window wall white",
+      "after": "smooth matte warm off-white",
+      "trade": "Painter"
+    },
+    {
+      "element": "Under-cabinet light",
+      "before": "none",
+      "after": "2700 K LED strip under the niche board",
+      "trade": "Electrician"
+    },
+    {
+      "element": "Pendants",
+      "before": "none",
+      "after": "2 brass and opal-glass globe pendants over the peninsula (new ceiling outlets)",
+      "trade": "Electrician"
+    },
+    {
+      "element": "Ceiling spots",
+      "before": "existing",
+      "after": "same fittings, warm-white 2700 K lamps",
+      "trade": "Electrician"
+    }
+  ]
+}

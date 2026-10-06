@@ -1,0 +1,322 @@
+{
+ "today": {
+  "materials": [
+   {
+    "name": "tiles",
+    "mode": "atlas",
+    "tid": null,
+    "tile": 1.0,
+    "tint": [
+     1,
+     1,
+     1
+    ],
+    "flat": [
+     1,
+     1,
+     1
+    ],
+    "rough": 0.20000000298023224,
+    "metal": 0.0,
+    "mirror": false
+   },
+   {
+    "name": "smooth_paint_warmwhite",
+    "mode": "atlas",
+    "tid": null,
+    "tile": 1.0,
+    "tint": [
+     1,
+     1,
+     1
+    ],
+    "flat": [
+     1,
+     1,
+     1
+    ],
+    "rough": 0.8999999761581421,
+    "metal": 0.0,
+    "mirror": false
+   },
+   {
+    "name": "smooth_paint_white",
+    "mode": "atlas",
+    "tid": null,
+    "tile": 1.0,
+    "tint": [
+     1,
+     1,
+     1
+    ],
+    "flat": [
+     1,
+     1,
+     1
+    ],
+    "rough": 0.8999999761581421,
+    "metal": 0.0,
+    "mirror": false
+   },
+   {
+    "name": "white_gloss",
+    "mode": "atlas",
+    "tid": null,
+    "tile": 1.0,
+    "tint": [
+     1,
+     1,
+     1
+    ],
+    "flat": [
+     1,
+     1,
+     1
+    ],
+    "rough": 0.3499999940395355,
+    "metal": 0.0,
+    "mirror": false
+   },
+   {
+    "name": "black",
+    "mode": "atlas",
+    "tid": null,
+    "tile": 1.0,
+    "tint": [
+     1,
+     1,
+     1
+    ],
+    "flat": [
+     1,
+     1,
+     1
+    ],
+    "rough": 0.44999998807907104,
+    "metal": 0.0,
+    "mirror": false
+   }
+  ],
+  "light_scale": 12.918115615844727,
+  "light_median": 0.884964108467102,
+  "triangles": 1884
+ },
+ "renovated": {
+  "materials": [
+   {
+    "name": "tiles",
+    "mode": "atlas",
+    "tid": null,
+    "tile": 1.0,
+    "tint": [
+     1,
+     1,
+     1
+    ],
+    "flat": [
+     1,
+     1,
+     1
+    ],
+    "rough": 0.20000000298023224,
+    "metal": 0.0,
+    "mirror": false
+   },
+   {
+    "name": "smooth_paint_warmwhite",
+    "mode": "atlas",
+    "tid": null,
+    "tile": 1.0,
+    "tint": [
+     1,
+     1,
+     1
+    ],
+    "flat": [
+     1,
+     1,
+     1
+    ],
+    "rough": 0.8999999761581421,
+    "metal": 0.0,
+    "mirror": false
+   },
+   {
+    "name": "smooth_paint_white",
+    "mode": "atlas",
+    "tid": null,
+    "tile": 1.0,
+    "tint": [
+     1,
+     1,
+     1
+    ],
+    "flat": [
+     1,
+     1,
+     1
+    ],
+    "rough": 0.8999999761581421,
+    "metal": 0.0,
+    "mirror": false
+   },
+   {
+    "name": "white_gloss",
+    "mode": "atlas",
+    "tid": null,
+    "tile": 1.0,
+    "tint": [
+     1,
+     1,
+     1
+    ],
+    "flat": [
+     1,
+     1,
+     1
+    ],
+    "rough": 0.3499999940395355,
+    "metal": 0.0,
+    "mirror": false
+   },
+   {
+    "name": "black",
+    "mode": "atlas",
+    "tid": null,
+    "tile": 1.0,
+    "tint": [
+     1,
+     1,
+     1
+    ],
+    "flat": [
+     1,
+     1,
+     1
+    ],
+    "rough": 0.44999998807907104,
+    "metal": 0.0,
+    "mirror": false
+   },
+   {
+    "name": "matte_greige",
+    "mode": "atlas",
+    "tid": null,
+    "tile": 1.0,
+    "tint": [
+     1,
+     1,
+     1
+    ],
+    "flat": [
+     1,
+     1,
+     1
+    ],
+    "rough": 0.550000011920929,
+    "metal": 0.0,
+    "mirror": false
+   },
+   {
+    "name": "quartz_warmwhite",
+    "mode": "atlas",
+    "tid": null,
+    "tile": 1.0,
+    "tint": [
+     1,
+     1,
+     1
+    ],
+    "flat": [
+     1,
+     1,
+     1
+    ],
+    "rough": 0.25,
+    "metal": 0.0,
+    "mirror": false
+   },
+   {
+    "name": "oak",
+    "mode": "atlas",
+    "tid": null,
+    "tile": 1.0,
+    "tint": [
+     1,
+     1,
+     1
+    ],
+    "flat": [
+     1,
+     1,
+     1
+    ],
+    "rough": 0.5,
+    "metal": 0.0,
+    "mirror": false
+   },
+   {
+    "name": "splash_tiles",
+    "mode": "atlas",
+    "tid": null,
+    "tile": 1.0,
+    "tint": [
+     1,
+     1,
+     1
+    ],
+    "flat": [
+     1,
+     1,
+     1
+    ],
+    "rough": 0.20000000298023224,
+    "metal": 0.0,
+    "mirror": false
+   },
+   {
+    "name": "lamp_shade",
+    "mode": "atlas",
+    "tid": null,
+    "tile": 1.0,
+    "tint": [
+     1,
+     1,
+     1
+    ],
+    "flat": [
+     1,
+     1,
+     1
+    ],
+    "rough": 0.800000011920929,
+    "metal": 0.0,
+    "mirror": false
+   },
+   {
+    "name": "brass",
+    "mode": "atlas",
+    "tid": null,
+    "tile": 1.0,
+    "tint": [
+     1,
+     1,
+     1
+    ],
+    "flat": [
+     1,
+     1,
+     1
+    ],
+    "rough": 0.30000001192092896,
+    "metal": 1.0,
+    "mirror": false
+   }
+  ],
+  "light_scale": 13.31737232208252,
+  "light_median": 0.8849375247955322,
+  "triangles": 4136
+ },
+ "textures": [],
+ "credits": "Textures and models: Poly Haven (CC0). Light: Blender Cycles bake."
+}

@@ -1,0 +1,60 @@
+{
+  "model": "gpt-image-2",
+  "quality": "medium",
+  "size": "auto",
+  "prompt": "Virtual staging of a real property photo: show this exact space after renovation.\n\nKeep identical: camera position and angle, lens, room geometry, wall positions,\nwindow and door openings, ceiling height and beams, the overall layout.\nChange only finishes, fixtures, fittings and furniture, as described here:\nModern and warm kitchen refresh. Keep unchanged: the U-shaped layout and all cabinet positions and sizes, the peninsula and its raised ledge, the black sink and tap, the black gas hob, the window, the large light-grey floor tiles, the ceiling, beam and ceiling fans. Fronts: base units in handle-less matte warm greige (cashmere) with slim recessed grips; wall cabinets and the tall unit in light natural oak veneer; the black glass top row replaced with matching oak fronts; the missing doors under the sink added in the same greige. Worktop: warm white quartz with subtle soft veining, about 2 cm thick, also on the peninsula ledge. Walls: smooth matte warm off-white paint; the glossy splashback between worktop and wall cabinets replaced with warm white handmade-look rectangular tiles. Lighting: warm-white (2700 K) LED strip under the wall cabinets, two simple brass-and-opal-glass pendants over the peninsula, existing ceiling spots in warm white. No extra furniture or appliances; keep the worktop clear apart from a few small items.\n\nRemove clutter, construction debris, personal belongings and anything that could\nidentify the occupants. Photorealistic, natural daylight, realistic materials and\nproportions, no text or watermarks.",
+  "started": "2026-10-06T03:24:45",
+  "results": [
+    {
+      "source": "work/kueche/input/K\u00fcche.jpeg",
+      "staged": "work/kueche/staged/K\u00fcche_staged.png",
+      "usage": {
+        "input_tokens": 1052,
+        "input_tokens_details": {
+          "image_tokens": 726,
+          "text_tokens": 326
+        },
+        "output_tokens": 1372,
+        "output_tokens_details": {
+          "image_tokens": 1372,
+          "text_tokens": 0
+        },
+        "total_tokens": 2424
+      }
+    },
+    {
+      "source": "work/kueche/input/K\u00fcche_middle.jpeg",
+      "staged": "work/kueche/staged/K\u00fcche_middle_staged.png",
+      "usage": {
+        "input_tokens": 1052,
+        "input_tokens_details": {
+          "image_tokens": 726,
+          "text_tokens": 326
+        },
+        "output_tokens": 1330,
+        "output_tokens_details": {
+          "image_tokens": 1330,
+          "text_tokens": 0
+        },
+        "total_tokens": 2382
+      }
+    },
+    {
+      "source": "work/kueche/input/K\u00fcche_rightview.jpeg",
+      "staged": "work/kueche/staged/K\u00fcche_rightview_staged.png",
+      "usage": {
+        "input_tokens": 1166,
+        "input_tokens_details": {
+          "image_tokens": 840,
+          "text_tokens": 326
+        },
+        "output_tokens": 1373,
+        "output_tokens_details": {
+          "image_tokens": 1373,
+          "text_tokens": 0
+        },
+        "total_tokens": 2539
+      }
+    }
+  ]
+}

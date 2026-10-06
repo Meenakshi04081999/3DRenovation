@@ -1,0 +1,18 @@
+{
+  "videos": [],
+  "photos": [
+    "Ku\u0308che.jpeg",
+    "Ku\u0308che_middle.jpeg",
+    "Ku\u0308che_rightview.jpeg"
+  ],
+  "skipped": [
+    ".DS_Store"
+  ],
+  "frames_total": 3,
+  "claude_sample": [
+    "Ku\u0308che.jpeg",
+    "Ku\u0308che_middle.jpeg",
+    "Ku\u0308che_rightview.jpeg"
+  ],
+  "note": "frames/all is for photogrammetry; frames/claude is what Claude views."
+}

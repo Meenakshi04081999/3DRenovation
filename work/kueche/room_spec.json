@@ -1,0 +1,207 @@
+{
+  "version": 2,
+  "address": "",
+  "room": {
+    "name": "Küche",
+    "width": 3.0,
+    "length": 3.6,
+    "height": 3.0,
+    "floor_material": "tiles",
+    "wall_material": "smooth_paint_warmwhite",
+    "ceiling_material": "smooth_paint_white",
+    "status": {
+      "dimensions": "estimated (user has no exact measurements; estimates kept)",
+      "height": "estimated (wall cabinets end about 2.5 m, ceiling about 0.5 m above)",
+      "open_sides": "confirmed by user: open to living area on wall B and above the peninsula on wall C; no door in the kitchen",
+      "materials": "seen: large light-grey floor tiles, cream walls, white window wall, white gloss fronts, cream stone worktop",
+      "not_modelled": "ceiling beam/soffit, ceiling fans, spotlights, plumbing debris",
+      "layout_note": "Sink wall is wall B (window wall A is on its left when facing it). The builder hangs wall cabinets on wall D only, so kitchen_fixups.py moves them to wall B after each build and makes the top row black."
+    }
+  },
+  "openings": [
+    {
+      "id": "window",
+      "wall": "A",
+      "x": 1.3,
+      "width": 1.0,
+      "sill": 1.05,
+      "height": 1.3,
+      "reveal": 0.2,
+      "status": "position confirmed by user, size estimated"
+    },
+    {
+      "id": "open_living",
+      "wall": "D",
+      "x": 0.0,
+      "width": 3.6,
+      "height": 3.0,
+      "status": "confirmed by user"
+    },
+    {
+      "id": "open_peninsula",
+      "wall": "C",
+      "x": 0.0,
+      "width": 3.0,
+      "height": 3.0,
+      "status": "confirmed by user"
+    }
+  ],
+  "items": [
+    {
+      "id": "counter_sink_run",
+      "type": "shelf",
+      "x": 2.4,
+      "z": 0.0,
+      "w": 0.6,
+      "d": 2.8,
+      "h": 0.9,
+      "material": "white_gloss",
+      "label": "Base units along sink wall, white gloss, cream worktop",
+      "status": "seen, length estimated; doors under the sink missing"
+    },
+    {
+      "id": "counter_window_run",
+      "type": "shelf",
+      "x": 1.25,
+      "z": 0.0,
+      "w": 1.15,
+      "d": 0.6,
+      "h": 0.9,
+      "material": "white_gloss",
+      "label": "Drawer units under the window",
+      "status": "seen, length estimated"
+    },
+    {
+      "id": "tall_unit",
+      "type": "shelf",
+      "x": 0.65,
+      "z": 0.0,
+      "w": 0.6,
+      "d": 0.6,
+      "h": 2.25,
+      "material": "white_gloss",
+      "label": "Tall unit: cabinet on top, open shelves with wicker baskets below",
+      "status": "seen, size estimated"
+    },
+    {
+      "id": "peninsula",
+      "type": "shelf",
+      "x": 0.4,
+      "z": 2.8,
+      "w": 2.6,
+      "d": 0.6,
+      "h": 0.9,
+      "material": "white_gloss",
+      "label": "Peninsula with hob and drawers",
+      "status": "seen, length estimated"
+    },
+    {
+      "id": "peninsula_ledge",
+      "type": "shelf",
+      "x": 0.4,
+      "z": 3.4,
+      "w": 2.6,
+      "d": 0.2,
+      "h": 1.1,
+      "material": "white_gloss",
+      "label": "Raised ledge / breakfast shelf behind the hob",
+      "status": "seen, height estimated"
+    },
+    {
+      "id": "sink",
+      "type": "shelf",
+      "x": 2.47,
+      "z": 0.85,
+      "w": 0.45,
+      "d": 0.75,
+      "h": 0.905,
+      "material": "black",
+      "label": "Black composite sink with pull-out tap",
+      "status": "seen, size estimated"
+    },
+    {
+      "id": "hob",
+      "type": "shelf",
+      "x": 1.5,
+      "z": 2.85,
+      "w": 0.6,
+      "d": 0.5,
+      "h": 0.905,
+      "material": "black",
+      "label": "Black glass gas hob, 2 burners",
+      "status": "seen"
+    },
+    {
+      "id": "wall_cabinets_white",
+      "type": "wall_cabinet",
+      "z": 0.6,
+      "w": 0.35,
+      "d": 2.8,
+      "y": 1.55,
+      "h": 0.55,
+      "label": "Upper cabinets, white gloss, open niche below",
+      "status": "seen, height estimated",
+      "wall": "B (moved by kitchen_fixups.py)"
+    },
+    {
+      "id": "wall_cabinets_glass",
+      "type": "wall_cabinet",
+      "z": 0.6,
+      "w": 0.35,
+      "d": 2.8,
+      "y": 2.1,
+      "h": 0.4,
+      "label": "Top row, black glass fronts (recoloured after build)",
+      "status": "seen, height estimated",
+      "wall": "B (moved by kitchen_fixups.py)"
+    }
+  ],
+  "cameras": [
+    {
+      "id": "middle",
+      "label": "Facing sink wall",
+      "photo": "Küche_middle.jpeg",
+      "p": [
+        0.1,
+        1.5,
+        1.8
+      ],
+      "t": [
+        3.0,
+        1.2,
+        1.7
+      ]
+    },
+    {
+      "id": "rightview",
+      "label": "Window corner",
+      "photo": "Küche_rightview.jpeg",
+      "p": [
+        0.7,
+        1.5,
+        2.6
+      ],
+      "t": [
+        3.0,
+        1.2,
+        0.0
+      ]
+    },
+    {
+      "id": "overview",
+      "label": "From the living area",
+      "photo": "Küche.jpeg",
+      "p": [
+        -1.6,
+        1.5,
+        4.4
+      ],
+      "t": [
+        3.0,
+        1.2,
+        1.6
+      ]
+    }
+  ],
+  "not_included": "the living area, the rest of the flat and the exterior."
+}
